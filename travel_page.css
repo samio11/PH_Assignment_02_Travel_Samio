@@ -249,6 +249,28 @@ body{
     background-size: 100% 100%;
 }
 
+.perfect_container
+{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.perfect_left
+{
+    flex: 1;
+}
+.perfect_right
+{
+    flex: 1;
+}
+.border_red
+{
+    border-radius: 10px;
+}
 /* making responsive for android and tab */
 @media screen and (max-width: 480px) {
   .center2{
@@ -298,5 +320,8 @@ body{
     grid-column: span 4;
     width: 100%;
   }
-
+  .perfect_container
+  {
+    flex-direction: column;
+  }
 }
