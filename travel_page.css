@@ -142,6 +142,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    margin-bottom: 40px;
 }
 .p_heading
 {
@@ -175,6 +176,77 @@ body{
     cursor: pointer;
     width: 200px;
     height: 50px;
+}
+
+.s1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid_container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img_grid
+{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic_01
+{ 
+    grid-column: span 2;
+    background-image: url('./Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pic_02
+{ 
+    grid-column: span 2;
+    background-image: url('./Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pic_03
+{ 
+    grid-column: span 1;
+    background-image: url('./Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pic_04
+{ 
+    grid-column: span 2;
+    background-image: url('./Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pic_05
+{ 
+    grid-column: span 1;
+    background-image: url('./Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pic_06
+{ 
+    grid-column: span 1;
+    background-image: url('./Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#pic_07
+{ 
+    grid-column: span 3;
+    background-image: url('./Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /* making responsive for android and tab */
