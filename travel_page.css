@@ -347,6 +347,18 @@ body{
     font-size: 15px;
     color: black;
 }
+.footer_container{
+    margin-top: 70px;
+    width: 100%;
+    height: 500px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_center{
+    width: 70%;
+}
 /* making responsive for android and tab */
 @media screen and (max-width: 480px) {
   .center2{
